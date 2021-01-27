@@ -28,4 +28,5 @@ export default {
   box-sizing: border-box;
   font-family: "Quantico", sans-serif;
 }
+
 </style>
