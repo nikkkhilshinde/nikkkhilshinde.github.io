@@ -48,6 +48,7 @@ export default {
 
 <style scoped>
 .navbar {
+  position: absolute;
   width: 100vw;
   height: 70px;
   padding: 0 5%;
