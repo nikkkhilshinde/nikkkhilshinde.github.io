@@ -41,7 +41,7 @@ export default {
 }
 section.landing p.title {
   font-weight: 700;
-  font-size: 84px;
+  font-size: 5rem;
   line-height: 72px;
   color: var(--light-color);
 }
@@ -65,8 +65,20 @@ section.landing p.subtitle {
   .content {
     padding-top: 0;
   }
-  section.landing p.subtitle{
-      width: 100%;
+  section.landing p.subtitle {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  section.landing p.title {
+    font-size: 4rem;
+    line-height: 55px;
+  }
+}
+@media screen and (max-width: 340px) {
+  section.landing p.title {
+    font-size: 3rem;
+    line-height: 50px;
   }
 }
 </style>

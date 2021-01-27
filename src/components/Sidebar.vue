@@ -114,7 +114,6 @@ export default {};
   flex-direction: column;
 }
 .email {
-  /* border: 1px solid white; */
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -142,5 +141,18 @@ export default {};
 svg:hover path {
   fill: var(--light-color);
   transition: all ease 0.3s;
+}
+@media screen and (max-width: 380px) {
+  .email {
+    margin: 0;
+  }
+  .social-icons div {
+    margin: 5px 0;
+  }
+}
+@media screen and (max-width: 340px){
+  .email {
+    margin: 10px 0;
+  }
 }
 </style>
