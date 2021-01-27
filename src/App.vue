@@ -3,12 +3,12 @@
 </template>
 
 <script>
-import Main from "./components/Main.vue";
+import Wrapper from "./components/Wrapper.vue";
 
 export default {
   name: "App",
   components: {
-    appMain: Main,
+    appMain: Wrapper,
   },
 };
 </script>
