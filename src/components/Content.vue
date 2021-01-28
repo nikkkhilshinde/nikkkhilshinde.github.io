@@ -2,16 +2,19 @@
   <div class="content">
     <landing-section></landing-section>
     <about-section></about-section>
+    <experience-section></experience-section>
   </div>
 </template>
 
 <script>
 import Landing from "./Sections/Landing.vue";
 import About from "./Sections/About.vue";
+import Experience from "./Sections/Experience.vue";
 export default {
   components: {
     LandingSection: Landing,
     AboutSection: About,
+    ExperienceSection: Experience,
   },
 };
 </script>
