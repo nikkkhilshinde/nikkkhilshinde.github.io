@@ -115,7 +115,8 @@ export default {
   }
   .navbar {
     display: absolute;
-    width: 100vw;
+    z-index: 10;
+    width: 100%;
     height: 70px;
     padding: 0 5%;
     display: flex;
@@ -132,7 +133,7 @@ export default {
     height: 100vh;
     width: 0;
     position: absolute;
-    z-index: 1;
+    z-index: 10;
     top: 0;
     left: 0;
     overflow-x: hidden;
@@ -140,7 +141,7 @@ export default {
     transition: 0.5s;
   }
   .nav-items .open {
-    width: 100vw;
+    width: 100%;
     backdrop-filter: blur(20px);
     background-color: var(--background-color);
   }

@@ -104,12 +104,12 @@ export default {};
 </script>
 <style scoped>
 .sidebar {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   margin-right: 5%;
   color: white;
-  position: fixed;
+  z-index: 0;
   display: flex;
   flex-direction: column;
 }
