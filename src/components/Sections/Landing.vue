@@ -71,6 +71,7 @@ section.landing p.subtitle {
 }
 .box .row.footer {
   flex: 0 1 40px;
+  padding-bottom: 50px;
 }
 @media screen and (max-width: 600px) {
   h1 {
