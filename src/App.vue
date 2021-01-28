@@ -27,6 +27,7 @@ export default {
   margin: 0;
   box-sizing: border-box;
   font-family: "Quantico", sans-serif;
+  /* border: 1px solid red; */
 }
 #app{
 	height: 100%;

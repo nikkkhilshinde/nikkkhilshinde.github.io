@@ -48,8 +48,9 @@ export default {
 
 <style scoped>
 .navbar {
-  position: absolute;
-  width: 100vw;
+  position: fixed;
+   backdrop-filter: blur(20px);
+  width: 100%;
   height: 70px;
   padding: 0 5%;
   display: flex;
@@ -113,7 +114,7 @@ export default {
     display: none;
   }
   .navbar {
-    width: 100vw;
+    width: 100%;
     height: 70px;
     padding: 0 5%;
     display: flex;
@@ -140,7 +141,7 @@ export default {
     transition: 0.5s;
   }
   .nav-items .open {
-    width: 100vw;
+    width: 100%;
   }
 
   .nav-items ul {
@@ -158,7 +159,7 @@ export default {
     transition: 0.3s;
   }
   .open-close {
-    position: absolute;
+    position: fixed;
     z-index: 10;
     margin-top: 20px;
     width: 60px;

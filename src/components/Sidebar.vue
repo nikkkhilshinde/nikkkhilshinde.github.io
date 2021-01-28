@@ -150,7 +150,10 @@ svg:hover path {
     margin: 5px 0;
   }
 }
-@media screen and (max-width: 340px){
+@media screen and (max-width: 440px) {
+  .sidebar {
+    display: none;
+  }
   .email {
     margin: 10px 0;
   }

@@ -20,8 +20,8 @@ export default {
 </script>
 <style scoped>
 .container {
-  width: 100vw;
-  height: 100%;
+  width: 100%;
+  height: fit-content;
   background-color: var(--background-color);
 }
 </style>
