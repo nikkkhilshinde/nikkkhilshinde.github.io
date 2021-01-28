@@ -49,7 +49,7 @@ export default {
 <style scoped>
 .navbar {
   position: fixed;
-   backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
   width: 100%;
   height: 70px;
   padding: 0 5%;
@@ -114,7 +114,8 @@ export default {
     display: none;
   }
   .navbar {
-    width: 100%;
+    display: absolute;
+    width: 100vw;
     height: 70px;
     padding: 0 5%;
     display: flex;
@@ -128,20 +129,20 @@ export default {
     filter: blur(10px);
   }
   .nav-items ul {
-    height: 100%;
+    height: 100vh;
     width: 0;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0;
     left: 0;
-    backdrop-filter: blur(20px);
-
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
   }
   .nav-items .open {
-    width: 100%;
+    width: 100vw;
+    backdrop-filter: blur(20px);
+    background-color: var(--background-color);
   }
 
   .nav-items ul {
