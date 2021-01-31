@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <h1>04. Whant to contact ?</h1>
+    <h1>04. Want to contact ?</h1>
     <div class="text">
       Although I'm not currently looking for any new opportunities, my inbox is
       always open. Whether you have a question or just want to say hi, I'll try
@@ -13,7 +13,7 @@
 <style scoped>
 .contact {
   /* border: 1px solid white; */
-  margin: 50px 15% 100px 5%;
+  margin: 50px 15% 50px 5%;
 }
 .text {
   width: 500px;

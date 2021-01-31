@@ -1,6 +1,10 @@
 <template>
   <div class="navbar">
-    <div class="logo"><button>Resume</button></div>
+    <div class="logo">
+      <a href="../assets/Resume.pdf" target="_blank"
+        ><button id="resume">Resume</button>
+      </a>
+    </div>
 
     <div class="nav-items">
       <ul :class="navbarPosition">
@@ -32,6 +36,9 @@
 </template>
 
 <script>
+// document.querySelector("#resume").addEventListener("click", () => {
+//   console.log("Hello");
+// });
 export default {
   data() {
     return {
@@ -42,6 +49,12 @@ export default {
     toggleNavbar: function() {
       this.navbarPosition = this.navbarPosition === "" ? "open" : "";
     },
+  },
+  mounted: function() {
+    console.log(document.querySelector("button"));
+    // document.querySelector("#resume").addEventListener("click", () => {
+    //   window.open("Resume.pdf", "_blank");
+    // });
   },
 };
 </script>
