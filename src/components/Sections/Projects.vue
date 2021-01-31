@@ -220,7 +220,6 @@ export default {};
 
 <style scoped>
 .projects {
-  /* border: 1px solid white; */
   margin: 0 20% 0 5%;
   z-index: -1;
 }
@@ -233,11 +232,8 @@ h2 {
 }
 
 .projects > .item {
-  /* border: 1px solid white; */
-  /* height: 470px; */
   position: relative;
   margin: 30px 0;
-  /* overflow-y: hidden; */
 }
 .item > .visuals {
   position: absolute;
@@ -258,19 +254,12 @@ h2 {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  /* filter: grayscale(1); */
   transition: all ease 0.5s;
 }
-.item > .visuals > img:hover {
-  /* filter: grayscale(0); */
-}
 .item > .box {
-  /* background-color: red; */
-  /* position: absolute; */
   z-index: 1;
   left: 0;
   border: 1px solid white;
-  /* height: 100%; */
   width: 50%;
   padding: 40px 15% 20px 40px;
 }
@@ -283,17 +272,9 @@ h2 {
 .list {
   display: flex;
   flex-direction: row;
-  /* list-style: none; */
 }
 .list > div {
   padding: 0 50px 0 0;
-}
-li::before {
-  /* content: "•"; */
-  /* color: red; */
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
 }
 .blend {
   background-color: var(--accent-color-dark);
@@ -330,17 +311,12 @@ svg:hover path {
     width: 80%;
     padding-right: 17%;
   }
-  .item {
-    /* height: 400px;    */
-  }
+
   .item > .visuals {
-    /* display: none; */
     width: 35%;
     z-index: 0;
   }
-  .item > .visuals > img {
-    /* transform: rotate(90deg); */
-  }
+
   .item.invert > .box {
     padding: 40px 20px 20px 18%;
   }
@@ -360,9 +336,6 @@ svg:hover path {
   }
   .visuals {
     display: none;
-  }
-  .projects > .item {
-    /* height: 650px; */
   }
 }
 @media screen and (max-width: 380px) {
