@@ -144,9 +144,9 @@ p {
     /* display: none; */
     font-size: 2.6rem;
   }
-    .vertical-divider{
-        display: none;
-    }
+  .vertical-divider {
+    display: none;
+  }
   h2 {
     font-size: 1.8rem;
   }
@@ -170,6 +170,9 @@ p {
   }
 }
 @media screen and (max-width: 600px) {
+  .column.right{
+    width: 100%;
+  }
 }
 @media screen and (max-width: 380px) {
 }

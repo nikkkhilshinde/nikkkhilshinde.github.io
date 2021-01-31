@@ -55,6 +55,7 @@ export default {
   padding: 0 5%;
   display: flex;
   justify-content: space-between;
+  z-index: 10;
 }
 
 .nav-items {
