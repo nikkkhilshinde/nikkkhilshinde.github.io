@@ -1,5 +1,5 @@
 <template>
-  <div class="projects">
+  <div class="projects" id="projects">
     <h1>03. Projects</h1>
     <div class="horizontal-devider"></div>
     <div class="item">

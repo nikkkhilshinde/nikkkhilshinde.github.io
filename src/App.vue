@@ -27,14 +27,19 @@ export default {
   margin: 0;
   box-sizing: border-box;
   font-family: "Quantico", sans-serif;
-  /* border: 1px solid red; */
 }
-#app{
-	height: 100%;
+html {
+  scroll-behavior: smooth;
+}
+#app {
+  height: 100%;
 }
 html,
 body {
   width: 100%;
   height: 100%;
+}
+button:focus {
+  outline: none;
 }
 </style>

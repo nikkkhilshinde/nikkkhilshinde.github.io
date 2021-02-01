@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="about">
     <div class="box">
       <section class="about">
         <div class="picture">
@@ -140,8 +140,8 @@ h1 {
     margin-top: 0;
     /* border: 1px solid white; */
   }
-  section.about{
-      padding-top: 20px;
+  section.about {
+    padding-top: 20px;
   }
 }
 @media screen and (max-width: 380px) {

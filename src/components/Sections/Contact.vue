@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div class="contact" id="contact">
     <h1>04. Want to contact ?</h1>
     <div class="text">
       Although I'm not currently looking for any new opportunities, my inbox is

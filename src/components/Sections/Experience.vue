@@ -1,5 +1,5 @@
 <template>
-  <div class="experience">
+  <div class="experience" id="experience">
     <div class="box">
       <div class="column left">
         <div class="row"></div>
@@ -170,7 +170,7 @@ p {
   }
 }
 @media screen and (max-width: 600px) {
-  .column.right{
+  .column.right {
     width: 100%;
   }
 }

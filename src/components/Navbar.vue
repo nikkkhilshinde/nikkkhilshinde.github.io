@@ -1,8 +1,9 @@
 <template>
   <div class="navbar">
     <div class="logo">
-      <a href="../assets/Resume.pdf" target="_blank"
-        ><button id="resume">Resume</button>
+      <!-- <a href="../assets/Project2.png">s</a> -->
+      <a href="./Resume.pdf" target="_blank"
+        ><button @click="openPdf" id="resume">Resume</button>
       </a>
     </div>
 
@@ -10,22 +11,24 @@
       <ul :class="navbarPosition">
         <li>
           <p>01.</p>
-          About
+          <a href="#about"> About</a>
         </li>
+
         <li>
           <p>02.</p>
-          Experience
+          <a href="#experience"> Experience</a>
         </li>
         <li>
           <p>03.</p>
-          Projects
+          <a href="#projects"> Projects</a>
         </li>
         <li>
           <p>04.</p>
-          Contact
+          <a href="#contact"> Contact</a>
         </li>
       </ul>
     </div>
+    <button class="resume-mobile">Resume</button>
     <div :class="navbarPosition" @click="toggleNavbar" class="open-close">
       <span></span>
       <span></span>
@@ -49,17 +52,18 @@ export default {
     toggleNavbar: function() {
       this.navbarPosition = this.navbarPosition === "" ? "open" : "";
     },
-  },
-  mounted: function() {
-    console.log(document.querySelector("button"));
-    // document.querySelector("#resume").addEventListener("click", () => {
-    //   window.open("Resume.pdf", "_blank");
-    // });
+    openPdf: function() {
+      // window.print();
+    },
   },
 };
 </script>
 
 <style scoped>
+a {
+  text-decoration: none;
+  color: unset;
+}
 .navbar {
   position: fixed;
   backdrop-filter: blur(20px);
@@ -106,7 +110,7 @@ export default {
   display: flex;
   align-self: center;
 }
-.logo button {
+button {
   border: 1px solid var(--light-color);
   background: none;
   color: var(--light-color);
@@ -120,10 +124,17 @@ export default {
   color: var(--accent-color-light);
   border-color: var(--accent-color-light);
 }
+.resume-mobile {
+  display: none;
+}
 @media screen and (max-width: 992px) {
 }
 
 @media screen and (max-width: 600px) {
+  .resume-mobile {
+    display: unset;
+    margin: 18px 0 15px 2%;
+  }
   .logo {
     display: none;
   }
