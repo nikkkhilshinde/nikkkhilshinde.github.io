@@ -45,7 +45,7 @@
 <style scoped>
 .credits {
   height: 100vh;
-  padding: 10% 0;
+  padding: 15% 0;
   color: white;
   text-align: center;
 }
