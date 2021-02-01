@@ -1,6 +1,10 @@
 <template>
   <div class="sidebar">
-    <div class="email"><p>shindenikhil1358@gmail.com</p></div>
+    <a href="mailto:shindenikhil1358@gmail.com"
+      ><div class="email">
+        <p>shindenikhil1358@gmail.com</p>
+      </div></a
+    >
     <div class="social-icons">
       <div>
         <a href="https://github.com/nikkkhilshinde" target="_blank"
@@ -112,6 +116,10 @@
 export default {};
 </script>
 <style scoped>
+a {
+  text-decoration: none;
+  color: unset;
+}
 .sidebar {
   position: fixed;
   right: 0;
