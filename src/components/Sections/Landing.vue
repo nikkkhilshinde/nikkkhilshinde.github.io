@@ -3,10 +3,14 @@
     <div class="box">
       <div class="row content">
         <section class="landing">
-          <p class="subtitle">Hello, My name is</p>
-          <p class="title name">Nikhil Shinde</p>
-          <p class="title">I build things for the web</p>
-          <p class="subtitle">
+          <p class="subtitle" data-aos="fade-down">Hello, My name is</p>
+          <p class="title name" data-aos="fade-down" data-aos-delay="150">
+            Nikhil Shinde
+          </p>
+          <p class="title" data-aos="fade-down" data-aos-delay="250">
+            I build things for the web
+          </p>
+          <p class="subtitle" data-aos="fade-down" data-aos-delay="350">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took.
@@ -14,7 +18,7 @@
         </section>
       </div>
       <div class="row footer">
-        Scroll to know more ↴
+        <p>Scroll to know more ↴</p>
       </div>
     </div>
   </div>
@@ -28,7 +32,10 @@ document.addEventListener("scroll", () => {
     document.querySelector(".footer").style.visibility = "visible";
   }
 });
-export default {};
+
+export default {
+
+};
 </script>
 
 <style scoped>

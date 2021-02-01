@@ -2,11 +2,11 @@
   <div id="about">
     <div class="box">
       <section class="about">
-        <div class="picture">
+        <div class="picture" data-aos="fade-right" data-aos-delay="100">
           <img src="../../assets/profile.jpg" alt="profile" />
         </div>
         <div class="divider"></div>
-        <div class="text">
+        <div class="text" data-aos="fade-left" data-aos-delay="100">
           <h1>01. About me</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting

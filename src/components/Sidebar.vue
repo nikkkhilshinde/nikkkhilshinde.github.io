@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar">
+  <div class="sidebar" data-aos="fade-left" data-aos-delay="100">
     <a href="mailto:shindenikhil1358@gmail.com"
       ><div class="email">
         <p>shindenikhil1358@gmail.com</p>

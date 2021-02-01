@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar">
+  <div data-aos="fade-down" data-aos-delay="50" class="navbar">
     <div class="logo">
       <!-- <a href="../assets/Project2.png">s</a> -->
       <a href="./Resume.pdf" target="_blank"
@@ -39,15 +39,13 @@
 </template>
 
 <script>
-// document.querySelector("#resume").addEventListener("click", () => {
-//   console.log("Hello");
-// });
 export default {
   data() {
     return {
       navbarPosition: "",
     };
   },
+
   methods: {
     toggleNavbar: function() {
       this.navbarPosition = this.navbarPosition === "" ? "open" : "";

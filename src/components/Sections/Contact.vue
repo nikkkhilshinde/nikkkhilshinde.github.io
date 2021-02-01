@@ -1,7 +1,7 @@
 <template>
   <div class="contact" id="contact">
-    <h1>04. Want to contact ?</h1>
-    <div class="text">
+    <h1 data-aos="fade-right" data-aos-delay="100">04. Want to contact ?</h1>
+    <div class="text" data-aos="fade-right" data-aos-delay="100">
       Although I'm not currently looking for any new opportunities, my inbox is
       always open. Whether you have a question or just want to say hi, I'll try
       my best to get back to you!
@@ -12,7 +12,6 @@
 
 <style scoped>
 .contact {
-  /* border: 1px solid white; */
   margin: 50px 15% 50px 5%;
 }
 .text {

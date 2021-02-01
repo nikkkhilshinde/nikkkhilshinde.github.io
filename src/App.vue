@@ -4,18 +4,23 @@
 
 <script>
 import Wrapper from "./components/Wrapper.vue";
+import AOS from "aos";
 
 export default {
   name: "App",
   components: {
     appMain: Wrapper,
   },
+  created() {
+    AOS.init();
+    
+  },
 };
 </script>
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap");
-
+@import url("https://unpkg.com/aos@next/dist/aos.css");
 :root {
   --background-color: #1b262c;
   --accent-color-light: #3282b8;
