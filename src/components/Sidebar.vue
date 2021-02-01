@@ -1,5 +1,6 @@
 <template>
-  <div class="sidebar" data-aos="fade-left" data-aos-delay="100">
+  <!-- <div class="sidebar" data-aos="fade-left" data-aos-delay="100"> -->
+  <div class="sidebar">
     <a href="mailto:shindenikhil1358@gmail.com"
       ><div class="email">
         <p>shindenikhil1358@gmail.com</p>

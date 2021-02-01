@@ -1,5 +1,6 @@
 <template>
-  <div data-aos="fade-down" data-aos-delay="50" class="navbar">
+  <!-- <div data-aos="fade-down" data-aos-delay="50" class="navbar"> -->
+  <div class="navbar">
     <div class="logo">
       <!-- <a href="../assets/Project2.png">s</a> -->
       <a href="./Resume.pdf" target="_blank"

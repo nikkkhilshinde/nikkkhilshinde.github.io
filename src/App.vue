@@ -4,7 +4,7 @@
 
 <script>
 import Wrapper from "./components/Wrapper.vue";
-import AOS from "aos";
+// import AOS from "aos";
 
 export default {
   name: "App",
@@ -12,7 +12,7 @@ export default {
     appMain: Wrapper,
   },
   created() {
-    AOS.init();
+    // AOS.init();
     
   },
 };
@@ -32,6 +32,7 @@ export default {
   margin: 0;
   box-sizing: border-box;
   font-family: "Quantico", sans-serif;
+  /* border: 1px solid red; */
 }
 html {
   scroll-behavior: smooth;
