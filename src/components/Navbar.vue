@@ -2,6 +2,9 @@
   <!-- <div data-aos="fade-down" data-aos-delay="50" class="navbar"> -->
   <div class="navbar">
     <div class="logo">
+    <!-- comment added-->
+    <!-- comment added-->
+    <!-- comment added-->
       <!-- <a href="../assets/Project2.png">s</a> -->
       <a href="./Resume.pdf" target="_blank"
         ><button @click="openPdf" id="resume">Resume</button>
