@@ -4,17 +4,17 @@
       <section class="about">
         <!-- <div class="picture" data-aos="fade-right" data-aos-delay="100"> -->
         <div class="picture">
-          <img src="../../assets/profile.jpg" alt="profile" />
+          <img src="../../assets/profile.jpeg" alt="profile" />
         </div>
         <div class="divider"></div>
         <!-- <div class="text" data-aos="fade-left" data-aos-delay="100"> -->
         <div class="text">
           <h1>01. About me</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            I am a Software Engineer at NetCracker Technology, Pune. Specializes
+            in back-end development as well as interested in competitive
+            programming. Feel free to contact me if you need any help or
+            anything from me.
           </p>
           <br />
           <p>

@@ -1,5 +1,7 @@
 <template>
   <div class="credits">
+    <button><router-link to="/">Back to home</router-link></button>
+    <br /><br />
     <h1>Credits</h1>
     <br />
     <div>
@@ -29,12 +31,27 @@
     <br />
     <h1>Resources</h1>
     <br />
-    <div>Hosted on <a href="https://www.netlify.com/">netlify.com</a></div>
+    <div>
+      Hosted on
+      <a href="https://www.netlify.com/" target="_blank">netlify.com</a>
+      for free
+    </div>
     <br />
     <div>
       Source code at
-      <a href="https://github.com/nikkkhilshinde/nikkkhilshinde.github.io"
+      <a
+        href="https://github.com/nikkkhilshinde/nikkkhilshinde.github.io"
+        target="_blank"
         >github.com/nikkkhilshinde/nikkkhilshinde.github.io</a
+      >
+    </div>
+    <br />
+    <div>
+      Resume template by
+      <a
+        href="https://www.overleaf.com/articles/ronak-dedhiyas-cv/dhvyjtfwwkzg"
+        target="_blank"
+        >Ronak Dedhiya</a
       >
     </div>
     <br />
@@ -45,7 +62,7 @@
 <style scoped>
 .credits {
   height: 100vh;
-  padding: 15% 0;
+  padding: 15vh 0;
   color: white;
   text-align: center;
 }

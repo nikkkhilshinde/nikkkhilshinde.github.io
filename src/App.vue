@@ -13,7 +13,6 @@ export default {
   },
   created() {
     // AOS.init();
-    
   },
 };
 </script>
@@ -47,5 +46,13 @@ body {
 }
 button:focus {
   outline: none;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+a:hover {
+  cursor: pointer;
+  color: var(--light-color);
 }
 </style>
