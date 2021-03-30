@@ -45,7 +45,7 @@
                 target="_blank"
                 >CodeChef</a
               >
-              3★ Coder with highest rating of 1603.
+              3★ Coder with highest rating of 1683.
             </div>
           </div>
           <br />
@@ -72,6 +72,42 @@
               >5★ for problem solving
             </div>
           </div>
+          <br />
+          <div class="profiles">
+            <div>
+              <svg
+                style="margin-right:8px"
+                width="28px"
+                height="28px"
+                viewBox="0 0 24 24"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Codeforces icon</title>
+                <path
+                  d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.673 21 0 20.328 0 19.5V9c0-.828.673-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.827 0-1.5-.672-1.5-1.5v-15c0-.828.673-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z"
+                />
+              </svg>
+            </div>
+            <div>
+              <a
+                href="https://codeforces.com/profile/nikkkhilshinde"
+                target="_blank"
+                >Codeforces
+              </a>
+              {{
+                codeforcesInfo !== null
+                  ? codeforcesInfo["result"][0]["maxRank"]
+                  : "newbie"
+              }}
+              with highest rating of
+              {{
+                codeforcesInfo !== null
+                  ? codeforcesInfo["result"][0]["maxRating"]
+                  : "444"
+              }}
+            </div>
+          </div>
         </section>
       </div>
       <div class="row footer">
@@ -89,8 +125,20 @@ document.addEventListener("scroll", () => {
     document.querySelector(".footer").style.visibility = "visible";
   }
 });
+import axios from "axios";
 
-export default {};
+export default {
+  data() {
+    return {
+      codeforcesInfo: null,
+    };
+  },
+  async created() {
+    await axios
+      .get("https://codeforces.com/api/user.info?handles=nikkkhilshinde")
+      .then((response) => (this.codeforcesInfo = response.data));
+  },
+};
 </script>
 
 <style scoped>
