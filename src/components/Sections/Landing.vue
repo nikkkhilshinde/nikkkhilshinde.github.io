@@ -112,6 +112,21 @@
       </div>
       <div class="row footer">
         <p>Scroll to know more ↴</p>
+        <div class="experience">
+          Experience -
+          <p class="years">{{ experience["years"] }}</p>
+          Years :
+          <p class="months">{{ experience["months"] }}</p>
+          Months :
+          <p class="days">{{ experience["days"] }}</p>
+          Days :
+          <p>{{experience["hours"]}}</p>
+          Hours :
+          <p>{{experience["minutes"]}}</p>
+          Minutes :
+          <p>{{experience["seconds"]}}</p>
+          seconds
+        </div>
       </div>
     </div>
   </div>
@@ -126,14 +141,25 @@ document.addEventListener("scroll", () => {
   }
 });
 import axios from "axios";
+import moment from "moment";
 
 export default {
   data() {
     return {
       codeforcesInfo: null,
+      experience: {},
     };
   },
   async created() {
+    setInterval(() => {
+      // var t = Date.parse(new Date(1563823800000)) - Date.parse(new Date());
+      var starts = moment("2019-07-23 10:00:00");
+      var ends = moment();
+      // var diff = moment.preciseDiff(starts, ends, true);
+      this.experience = moment.duration(ends.diff(starts))["_data"];
+
+      // console.log(duration);l
+    }, 1000);
     await axios
       .get("https://codeforces.com/api/user.info?handles=nikkkhilshinde")
       .then((response) => (this.codeforcesInfo = response.data));
@@ -187,12 +213,17 @@ section.landing p.subtitle {
   flex: 0 1 auto;
 }
 .box .row.content {
-  padding-top: 210px;
+  padding-top: 180px;
   flex: 1 1 auto;
 }
 .box .row.footer {
+  display: flex;
+  justify-content: space-between;
   flex: 0 1 40px;
   padding-bottom: 0px;
+}
+.footer .experience p {
+  display: inline-block;
 }
 @media screen and (max-width: 600px) {
   h1 {
