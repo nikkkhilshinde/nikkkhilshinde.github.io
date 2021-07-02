@@ -7,7 +7,7 @@
           <img src="../../assets/profile.jpeg" alt="profile" />
         </div>
         <div class="divider"></div>
-        <div class="text" data-aos="fade-left" data-aos-delay="100">
+        <div class="text" data-aos="fade-right" data-aos-delay="100">
         <!-- <div class="text"> -->
           <h1>01. About me</h1>
           <p>

@@ -4,7 +4,7 @@
     <!-- <h1>03. Projects</h1> -->
     <div class="horizontal-devider"></div>
     <div class="item">
-      <div class="visuals" data-aos="fade-left" data-aos-delay="100">
+      <div class="visuals" data-aos="fade-right" data-aos-delay="100">
       <!-- <div class="visuals"> -->
         <a href="https://www.hyderabadidumbiryani.in/"
           ><img src="../../assets/Project1.png" alt="project1"
@@ -133,7 +133,7 @@
         target="_blank"
       ></a> -->
 
-      <div class="box" data-aos="fade-left" data-aos-delay="100">
+      <div class="box" data-aos="fade-right" data-aos-delay="100">
       <!-- <div class="box"> -->
         <h2>
           Static website using <br />

@@ -1,5 +1,5 @@
 # portflio
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f784619c-4851-4f29-a229-d1a4ecc8d5a9/deploy-status)](https://app.netlify.com/sites/romantic-swanson-9961a1/deploys)
 ## Project setup
 ```
 npm install
