@@ -1,24 +1,24 @@
 <template>
   <div class="projects" id="projects">
-    <!-- <h1 data-aos="fade-down" data-aos-delay="100">03. Projects</h1> -->
-    <h1>03. Projects</h1>
+    <h1 data-aos="fade-down" data-aos-delay="100">03. Projects</h1>
+    <!-- <h1>03. Projects</h1> -->
     <div class="horizontal-devider"></div>
     <div class="item">
-      <!-- <div class="visuals" data-aos="fade-left" data-aos-delay="100"> -->
-      <div class="visuals">
+      <div class="visuals" data-aos="fade-left" data-aos-delay="100">
+      <!-- <div class="visuals"> -->
         <a href="https://www.hyderabadidumbiryani.in/"
           ><img src="../../assets/Project1.png" alt="project1"
         /></a>
       </div>
 
-      <a
+      <!-- <a
         class="visuals blend"
         href="https://www.hyderabadidumbiryani.in/"
         target="_blank"
-      ></a>
+      ></a> -->
 
-      <!-- <div class="box" data-aos="fade-right" data-aos-delay="100"> -->
-      <div class="box">
+      <div class="box" data-aos="fade-right" data-aos-delay="100">
+      <!-- <div class="box"> -->
         <h2>Static website using vue</h2>
         <br />
         <p>
@@ -121,20 +121,20 @@
     </div>
     <div class="horizontal-devider"></div>
     <div class="item invert">
-      <!-- <div class="visuals" data-aos="fade-right" data-aos-delay="100"> -->
-      <div class="visuals">
+      <div class="visuals" data-aos="fade-right" data-aos-delay="100">
+      <!-- <div class="visuals"> -->
         <a href="https://lifestyledevelopers.co.in/"
           ><img src="../../assets/Project2.png" alt="project2"
         /></a>
       </div>
-      <a
+      <!-- <a
         class="visuals blend"
         href="https://lifestyledevelopers.co.in/"
         target="_blank"
-      ></a>
+      ></a> -->
 
-      <!-- <div class="box" data-aos="fade-left" data-aos-delay="100"> -->
-      <div class="box">
+      <div class="box" data-aos="fade-left" data-aos-delay="100">
+      <!-- <div class="box"> -->
         <h2>
           Static website using <br />
           vue

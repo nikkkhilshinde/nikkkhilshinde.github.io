@@ -2,13 +2,13 @@
   <div id="about">
     <div class="box">
       <section class="about">
-        <!-- <div class="picture" data-aos="fade-right" data-aos-delay="100"> -->
-        <div class="picture">
+        <div class="picture" data-aos="fade-right" data-aos-delay="100">
+        <!-- <div class="picture"> -->
           <img src="../../assets/profile.jpeg" alt="profile" />
         </div>
         <div class="divider"></div>
-        <!-- <div class="text" data-aos="fade-left" data-aos-delay="100"> -->
-        <div class="text">
+        <div class="text" data-aos="fade-left" data-aos-delay="100">
+        <!-- <div class="text"> -->
           <h1>01. About me</h1>
           <p>
             I am a Software Engineer at NetCracker Technology, Pune. Specializes

@@ -1,8 +1,8 @@
 <template>
   <div class="experience" id="experience">
     <div class="box">
-      <!-- <div class="column left" data-aos="fade-right" data-aos-delay="100"> -->
-      <div class="column left">
+      <div class="column left" data-aos="fade-right" data-aos-delay="100">
+      <!-- <div class="column left"> -->
         <div class="row"></div>
         <div class="horizontal-divider"></div>
         <div class="row">
@@ -12,8 +12,8 @@
         </div>
       </div>
       <div class="column vertical-divider"></div>
-      <!-- <div class="column right" data-aos="fade-left" data-aos-delay="100"> -->
-      <div class="column right">
+      <div class="column right" data-aos="fade-left" data-aos-delay="100">
+      <!-- <div class="column right"> -->
         <div class="row">
           <h1>02. Experience</h1>
         </div>

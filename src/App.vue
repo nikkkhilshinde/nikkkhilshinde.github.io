@@ -4,7 +4,7 @@
 
 <script>
 import Wrapper from "./components/Wrapper.vue";
-// import AOS from "aos";
+import AOS from "aos";
 
 export default {
   name: "App",
@@ -12,7 +12,7 @@ export default {
     appMain: Wrapper,
   },
   created() {
-    // AOS.init();
+    AOS.init();
   },
 };
 </script>

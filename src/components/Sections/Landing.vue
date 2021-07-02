@@ -3,24 +3,24 @@
     <div class="box">
       <div class="row content">
         <section class="landing">
-          <!-- <p class="subtitle" data-aos="fade-down">Hello, My name is</p> -->
-          <p class="subtitle">Hello, My name is</p>
-          <!-- <p class="title name" data-aos="fade-down" data-aos-delay="150"> -->
-          <p class="title name">
+          <p class="subtitle" data-aos="fade-down">Hello, My name is</p>
+          <!-- <p class="subtitle">Hello, My name is</p> -->
+          <p class="title name" data-aos="fade-down" data-aos-delay="150">
+            <!-- <p class="title name"> -->
             Nikhil Shinde
           </p>
-          <!-- <p class="title" data-aos="fade-down" data-aos-delay="250"> -->
-          <p class="title">
+          <p class="title" data-aos="fade-down" data-aos-delay="250">
+            <!-- <p class="title"> -->
             I build things for the web
           </p>
-          <!-- <p class="subtitle" data-aos="fade-down" data-aos-delay="350"> -->
-          <p class="subtitle">
+          <p class="subtitle" data-aos="fade-down" data-aos-delay="350">
+            <!-- <p class="subtitle"> -->
             I am a Software Engineer at NetCracker Technology, Pune. Specializes
             in back-end development sometime designing and developing front end
             as well, Also having interest in competitive programming.
           </p>
           <br />
-          <div class="profiles">
+          <div class="profiles" data-aos="fade-down" data-aos-delay="450">
             <div>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,11 @@
                 focusable="false"
                 width="2rem"
                 height="2rem"
-                style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);"
+                style="
+                  -ms-transform: rotate(360deg);
+                  -webkit-transform: rotate(360deg);
+                  transform: rotate(360deg);
+                "
                 preserveAspectRatio="xMidYMid meet"
                 viewBox="0 0 24 24"
               >
@@ -49,7 +53,7 @@
             </div>
           </div>
           <br />
-          <div class="profiles">
+          <div class="profiles" data-aos="fade-down" data-aos-delay="550">
             <div>
               <svg
                 height="32"
@@ -73,10 +77,10 @@
             </div>
           </div>
           <br />
-          <div class="profiles">
+          <div class="profiles" data-aos="fade-down" data-aos-delay="650">
             <div>
               <svg
-                style="margin-right:8px"
+                style="margin-right: 8px"
                 width="28px"
                 height="28px"
                 viewBox="0 0 24 24"
@@ -113,19 +117,11 @@
       <div class="row footer">
         <p>Scroll to know more ↴</p>
         <div class="experience">
-          Experience -
+          Experience :
           <p class="years">{{ experience["years"] }}</p>
-          Years :
+          Year {{ experience["years"] > 1 ? "s" : "" }}:
           <p class="months">{{ experience["months"] }}</p>
-          Months :
-          <p class="days">{{ experience["days"] }}</p>
-          Days :
-          <p>{{experience["hours"]}}</p>
-          Hours :
-          <p>{{experience["minutes"]}}</p>
-          Minutes :
-          <p>{{experience["seconds"]}}</p>
-          seconds
+          Month{{ experience["months"] > 1 ? "s" : "" }}
         </div>
       </div>
     </div>
@@ -137,7 +133,7 @@ document.addEventListener("scroll", () => {
   if (window.scrollY > 0) {
     document.querySelector(".footer").style.visibility = "hidden";
   } else {
-    document.querySelector(".footer").style.visibility = "visible";
+    document.querySelector(".footer").style.visibility = "unset";
   }
 });
 import axios from "axios";
