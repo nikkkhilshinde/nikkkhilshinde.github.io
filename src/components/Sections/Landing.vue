@@ -49,7 +49,7 @@
                 target="_blank"
                 >CodeChef</a
               >
-              3★ Coder with highest rating of 1683.
+              3★ Coder with highest rating of 1771.
             </div>
           </div>
           <br />
