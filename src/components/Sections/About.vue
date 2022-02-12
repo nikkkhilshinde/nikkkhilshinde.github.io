@@ -3,31 +3,36 @@
     <div class="box">
       <section class="about">
         <div class="picture" data-aos="fade-right" data-aos-delay="100">
-        <!-- <div class="picture"> -->
+          <!-- <div class="picture"> -->
           <img src="../../assets/profile.jpeg" alt="profile" />
         </div>
         <div class="divider"></div>
         <div class="text" data-aos="fade-right" data-aos-delay="100">
-        <!-- <div class="text"> -->
+          <!-- <div class="text"> -->
           <h1>01. About me</h1>
           <p>
-            I am a Software Engineer at NetCracker Technology, Pune. Specializes
-            in back-end development as well as interested in competitive
-            programming. Feel free to contact me if you need any help or
-            anything from me.
+            Computers always fascinated me I knew that I wanted to do something
+            related to it. So I joined college for pursuing computer science
+            where I managed to learn about programming and how computers works,
+            During this time I explored lot of Computer Science fields but found
+            my interest to be in the webservices, Specifically in the backend
+            development.
           </p>
           <br />
           <p>
-            It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was
-            popularised in the 1960s.
+            When I graduated, I joined the NetCracker Technology as an Junior
+            Java Developer ( Backend ) and have been here since! I'm now a
+            Software Developer on the Test Automation Team and over the last
+            year, I've automated test cases covering more than 70% features of
+            the product for back-end as well as front-end.
           </p>
           <br />
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book .
+            Outside of work, I am also active on competitive programming sites
+            like CodeChef and CodeForces, competing with similar minds. I've
+            highest rating of 1771 on CodeChef and beginner profile on
+            CodeForces. I frequently challenge myself with data structure and
+            algorithm problems on leetcode as well.
           </p>
           <div class="bullets">
             <div>01. Java</div>

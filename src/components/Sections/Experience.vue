@@ -2,7 +2,7 @@
   <div class="experience" id="experience">
     <div class="box">
       <div class="column left" data-aos="fade-right" data-aos-delay="100">
-      <!-- <div class="column left"> -->
+        <!-- <div class="column left"> -->
         <div class="row"></div>
         <div class="horizontal-divider"></div>
         <div class="row">
@@ -13,7 +13,7 @@
       </div>
       <div class="column vertical-divider"></div>
       <div class="column right" data-aos="fade-right" data-aos-delay="100">
-      <!-- <div class="column right"> -->
+        <!-- <div class="column right"> -->
         <div class="row">
           <h1>02. Experience</h1>
         </div>
@@ -24,25 +24,27 @@
             <h3>July 2019 - Present</h3>
             <br />
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              During my time at NetCracker, I got opportunity to work on
+              multiple latest technologies such as SpringBoot, React, Openshift,
+              Kubernetes, Docket etc. I started my NetCracker journey as Junior
+              Software engineer Where I was working on bugfixes, Unit testing
+              and code smell fixing. Where I learned about microservices
+              architecture and how to build REST APIs And in depth knowledge
+              about system design. I was part of a team which was responsible
+              for development of few microservices specifically backend part.
+              <br />
+              <br />
+              After spending an year in the team i moved to another team called
+              Test Automation team. The team was responsible for automating QA
+              test cases for end to end flow for both front end and backend.
+              Initially I was working on backend part only but gradually moved
+              to automating front end test cases as well. Here I learned about
+              testing framework such as TestCafe. As I was working on front end
+              so I picked up few pieces of JavaScript as well, But I consider
+              Java as my Primary language.
             </p>
             <br />
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
-            </p>
-            <br />
-            <br />
+            
           </div>
         </div>
       </div>

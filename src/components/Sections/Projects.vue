@@ -5,7 +5,7 @@
     <div class="horizontal-devider"></div>
     <div class="item">
       <div class="visuals" data-aos="fade-right" data-aos-delay="100">
-      <!-- <div class="visuals"> -->
+        <!-- <div class="visuals"> -->
         <a href="https://www.hyderabadidumbiryani.in/"
           ><img src="../../assets/Project1.png" alt="project1"
         /></a>
@@ -18,7 +18,7 @@
       ></a> -->
 
       <div class="box" data-aos="fade-right" data-aos-delay="100">
-      <!-- <div class="box"> -->
+        <!-- <div class="box"> -->
         <h2>Static website using vue</h2>
         <br />
         <p>
@@ -31,10 +31,10 @@
           >
             <path d="M12 5L0.75 9.33013V0.669873L12 5Z" fill="white" />
           </svg>
-
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
+          Simple single page static website developed using Vue JS to create
+          online presence of the local restaurant business. Future plans include
+          to transform it into dynamic website where users will be able place
+          orders.
         </p>
         <br />
         <p>
@@ -47,9 +47,8 @@
           >
             <path d="M12 5L0.75 9.33013V0.669873L12 5Z" fill="white" />
           </svg>
-
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's .
+          Main focus while building this website was user experience and user
+          interface. Faced many challenged while finalizing the design.
         </p>
         <br />
         <div class="list">
@@ -122,7 +121,7 @@
     <div class="horizontal-devider"></div>
     <div class="item invert">
       <div class="visuals" data-aos="fade-right" data-aos-delay="100">
-      <!-- <div class="visuals"> -->
+        <!-- <div class="visuals"> -->
         <a href="https://lifestyledevelopers.co.in/"
           ><img src="../../assets/Project2.png" alt="project2"
         /></a>
@@ -134,7 +133,7 @@
       ></a> -->
 
       <div class="box" data-aos="fade-right" data-aos-delay="100">
-      <!-- <div class="box"> -->
+        <!-- <div class="box"> -->
         <h2>
           Static website using <br />
           vue
@@ -150,10 +149,10 @@
           >
             <path d="M12 5L0.75 9.33013V0.669873L12 5Z" fill="white" />
           </svg>
-
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
+          My first ever website. So will always be closer to my heart. Client
+          who is also my friend wanted to create a simple website not too
+          complicated just for showcasing their projects. So delivered it in no
+          time.
         </p>
         <br />
         <p>
@@ -167,8 +166,8 @@
             <path d="M12 5L0.75 9.33013V0.669873L12 5Z" fill="white" />
           </svg>
 
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's .
+          Main focus while developing the website was to deliver it in under a
+          week.
         </p>
         <br />
         <div class="list">
