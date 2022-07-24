@@ -15,7 +15,7 @@
           </p>
           <p class="subtitle" data-aos="fade-down" data-aos-delay="350">
             <!-- <p class="subtitle"> -->
-            I am a Software Engineer at NetCracker Technology, Pune. Specializes
+            I am a Software Developement Engineer - II at Upstox, Bangalore. Specializes
             in back-end development sometime designing and developing front end
             as well, Also having interest in competitive programming.
           </p>
