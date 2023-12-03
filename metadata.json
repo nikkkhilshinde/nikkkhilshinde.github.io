@@ -1,0 +1,130 @@
+{
+    "overview": {
+        "full-name": "Nikhil Shinde",
+        "tagline": "I build things for the web",
+        "intro": "I am a Software Developement Engineer - II at Upstox, Bangalore. Specializes in back-end development sometime designing and developing front end as well, Also having interest in competitive programming.",
+        "ratings": [
+            {
+                "platform": "codechef",
+                "highest-rating": "1771",
+                "starts": "3",
+                "tag": ""
+            },
+            {
+                "platform": "hackerrank",
+                "highest-rating": "",
+                "starts": "5",
+                "tag": ""
+            },
+            {
+                "platform": "codeforces",
+                "highest-rating": "1099",
+                "starts": "",
+                "tag": "newbie"
+            }
+        ],
+        "resume": "",
+        "socials": [
+            {
+                "platform": "mail",
+                "url": "mailto:shindenikhil1358@gmail.com"
+            },
+            {
+                "platform": "github",
+                "url": "https://github.com/nikkkhilshinde"
+            },
+            {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/nikkkhilshinde"
+            },
+            {
+                "platform": "facebook",
+                "url": "https://www.facebook.com/shindenikhil1358/"
+            },
+            {
+                "platform": "twitter",
+                "url": "https://twitter.com/nikkkhilshinde"
+            }
+        ]
+    },
+    "about": {
+        "introduction": [
+            "Computers always fascinated me I knew that I wanted to do something related to it. So I joined college for pursuing computer science where I managed to learn about programming and how computers works, During this time I explored lot of Computer Science fields but found my interest to be in the webservices, Specifically in the backend development.",
+            "When I graduated, I joined the NetCracker Technology as an Junior Java Developer ( Backend ) and have been here since! I'm now a Software Developer on the Test Automation Team and over the last year, I've automated test cases covering more than 70% features of the product for back-end as well as front-end.",
+            "Outside of work, I am also active on competitive programming sites like CodeChef and CodeForces, competing with similar minds. I've highest rating of 1771 on CodeChef and beginner profile on CodeForces. I frequently challenge myself with data structure and algorithm problems on leetcode as well."
+        ],
+        "skills": [
+            "Java",
+            "SpringBoot",
+            "Vue",
+            "HTML & CSS",
+            "Javascript",
+            "AWS",
+            "Microservices architecture"
+        ],
+        "profile-photo": {
+            "portrait": {
+                "url": ""
+            }
+        }
+    },
+    "experience": [
+        {
+            "company": "Netcracker",
+            "role": "Software engineer",
+            "from": "July 2019",
+            "to": "March 2022",
+            "location": "Pune, India",
+            "description": [
+                "During my time at NetCracker, I got opportunity to work on multiple latest technologies such as SpringBoot, React, Openshift, Kubernetes, Docket etc. I started my NetCracker journey as Junior Software engineer Where I was working on bugfixes, Unit testing and code smell fixing. Where I learned about microservices architecture and how to build REST APIs And in depth knowledge about system design. I was part of a team which was responsible for development of few microservices specifically backend part.",
+                "After spending an year in the team i moved to another team called Test Automation team. The team was responsible for automating QA test cases for end to end flow for both front end and backend. Initially I was working on backend part only but gradually moved to automating front end test cases as well. Here I learned about testing framework such as TestCafe. As I was working on front end so I picked up few pieces of JavaScript as well, But I consider Java as my Primary language."
+            ]
+        },
+        {
+            "company": "Upstox",
+            "role": "Software Development Engineer - 2",
+            "from": "March 2022",
+            "to": "Present",
+            "location": "Bangalore, India",
+            "description": [
+                "During my time at Upstox, I got opportunity to work on multiple latest technologies such as SpringBoot, React, Openshift, Kubernetes, Docket etc. I started my NetCracker journey as Junior Software engineer Where I was working on bugfixes, Unit testing and code smell fixing. Where I learned about microservices architecture and how to build REST APIs And in depth knowledge about system design. I was part of a team which was responsible for development of few microservices specifically backend part.",
+                "After spending an year in the team i moved to another team called Test Automation team. The team was responsible for automating QA test cases for end to end flow for both front end and backend. Initially I was working on backend part only but gradually moved to automating front end test cases as well. Here I learned about testing framework such as TestCafe. As I was working on front end so I picked up few pieces of JavaScript as well, But I consider Java as my Primary language."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Static website using vue",
+            "technologies": [
+                "HTML, CSS & Javascript"
+            ],
+            "framework": [
+                "Vue"
+            ],
+            "description": [
+                "Simple single page static website developed using Vue JS to create online presence of the local restaurant business. Future plans include to transform it into dynamic website where users will be able place orders.",
+                "Main focus while building this website was user experience and user interface. Faced many challenged while finalizing the design."
+            ],
+            "site-url": "https://www.hyderabadidumbiryani.in",
+            "repository": "",
+            "image": ""
+        },
+        {
+            "title": "Static website using vue",
+            "technologies": [
+                "HTML, CSS & Javascript"
+            ],
+            "framework": [
+                "Vue"
+            ],
+            "description": [
+                "My first ever website. So will always be closer to my heart. Client who is also my friend wanted to create a simple website not too complicated just for showcasing their projects. So delivered it in no time.",
+                "Main focus while developing the website was to deliver it in under a week."
+            ],
+            "site-url": "https://lifestyledevelopers.co.in",
+            "repository": "",
+            "image": ""
+        }
+    ],
+    "contact": {}
+}
