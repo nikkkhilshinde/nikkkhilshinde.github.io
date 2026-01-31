@@ -6,8 +6,13 @@
         <div class="row"></div>
         <div class="horizontal-divider"></div>
         <div class="row">
-          <div>
-            <p>Netcracker</p>
+          <div
+            v-for="(job, index) in experience"
+            :key="index"
+            :class="{ active: activeTab === index }"
+            @click="activeTab = index"
+          >
+            <p>{{ job.company }}</p>
           </div>
         </div>
       </div>
@@ -18,30 +23,25 @@
           <h1>02. Experience</h1>
         </div>
         <div class="horizontal-divider"></div>
-        <div class="row">
+        <div class="mobile-tabs">
+          <span
+            v-for="(job, index) in experience"
+            :key="index"
+            :class="{ active: activeTab === index }"
+            @click="activeTab = index"
+          >
+            {{ job.company }}
+          </span>
+        </div>
+        <div class="row content">
           <div>
-            <h2>Software engineer @ Netcracker</h2>
-            <h3>July 2019 - Present</h3>
+            <h2>{{ experience[activeTab].role }} @ {{ experience[activeTab].company }}</h2>
+            <h3>{{ experience[activeTab].from }} - {{ experience[activeTab].to }}</h3>
             <br />
-            <p>
-              During my time at NetCracker, I got opportunity to work on
-              multiple latest technologies such as SpringBoot, React, Openshift,
-              Kubernetes, Docket etc. I started my NetCracker journey as Junior
-              Software engineer Where I was working on bugfixes, Unit testing
-              and code smell fixing. Where I learned about microservices
-              architecture and how to build REST APIs And in depth knowledge
-              about system design. I was part of a team which was responsible
-              for development of few microservices specifically backend part.
-              <br />
-              <br />
-              After spending an year in the team i moved to another team called
-              Test Automation team. The team was responsible for automating QA
-              test cases for end to end flow for both front end and backend.
-              Initially I was working on backend part only but gradually moved
-              to automating front end test cases as well. Here I learned about
-              testing framework such as TestCafe. As I was working on front end
-              so I picked up few pieces of JavaScript as well, But I consider
-              Java as my Primary language.
+            <p v-for="(desc, i) in experience[activeTab].description" :key="i">
+              {{ desc }}
+              <br v-if="i < experience[activeTab].description.length - 1" />
+              <br v-if="i < experience[activeTab].description.length - 1" />
             </p>
             <br />
             
@@ -53,12 +53,22 @@
 </template>
 
 <script>
-export default {};
+import data from "../../../metadata.json";
+
+export default {
+  data() {
+    return {
+      experience: data.experience,
+      activeTab: 0,
+    };
+  },
+};
 </script>
 
 <style scoped>
 .experience {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
 }
 .mobile-tab {
   display: none;
@@ -70,9 +80,6 @@ export default {};
   display: flex;
   flex-direction: row;
   padding: 10% 0 10% 0;
-}
-.box div {
-  /* border: 1px solid white; */
 }
 .column.left {
   width: 25%;
@@ -108,11 +115,23 @@ export default {};
   align-items: center;
   padding-right: 20px;
   height: 50px;
-  background-color: #3282b87a;
+  /* background-color: #3282b87a; */
   font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-right: 3px solid transparent; /* default border */
   /* border: 1px solid white; */
   /* background-color: white; */
 }
+.left > .row > div.active {
+  background-color: #3282b830; /* Highlight background */
+  border-right: 3px solid #3282b8; /* Highlight border */
+  color: #3282b8; /* Highlight text if needed, though not specified */
+}
+.left > .row > div:hover {
+    background-color: #3282b810;
+}
+
 .left > .row > div > p {
   display: inline;
   /* justify-self: flex-end; */
@@ -131,6 +150,32 @@ p {
   padding: 11px 0 0 20px;
   /* background-color: white; */
 }
+
+/* Mobile Tabs Styles */
+.mobile-tabs {
+  display: none;
+  flex-direction: row;
+  gap: 20px;
+  padding: 15px 20px;
+  overflow-x: auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobile-tabs span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.mobile-tabs span.active {
+  opacity: 1;
+  color: #3282b8;
+  border-bottom: 2px solid #3282b8;
+}
+
 .mobile h1 {
   display: none;
 }
@@ -159,6 +204,14 @@ p {
   .mobile h1 {
     display: block;
   }
+  /* Show mobile tabs and hide left column */
+  .mobile-tabs {
+    display: flex;
+  }
+  .column.left {
+    display: none;
+  }
+  /* Reuse mobile-tab class if needed or keep using mobile-tabs */
   .mobile-tab {
     display: flex;
     align-content: center;
@@ -168,12 +221,8 @@ p {
   .mobile-tab > div {
     display: inline-block;
     align-items: center;
-
     font-size: 1.4rem;
-  }
-  .column.left {
-    display: none;
-  }
+  } 
 }
 @media screen and (max-width: 600px) {
   .column.right {

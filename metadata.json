@@ -76,8 +76,9 @@
             "to": "March 2022",
             "location": "Pune, India",
             "description": [
-                "During my time at NetCracker, I got opportunity to work on multiple latest technologies such as SpringBoot, React, Openshift, Kubernetes, Docket etc. I started my NetCracker journey as Junior Software engineer Where I was working on bugfixes, Unit testing and code smell fixing. Where I learned about microservices architecture and how to build REST APIs And in depth knowledge about system design. I was part of a team which was responsible for development of few microservices specifically backend part.",
-                "After spending an year in the team i moved to another team called Test Automation team. The team was responsible for automating QA test cases for end to end flow for both front end and backend. Initially I was working on backend part only but gradually moved to automating front end test cases as well. Here I learned about testing framework such as TestCafe. As I was working on front end so I picked up few pieces of JavaScript as well, But I consider Java as my Primary language."
+                "During my time at NetCracker, I had the opportunity to work on cutting-edge technologies including Spring Boot, React, OpenShift, Kubernetes, and Docker. I began my journey as a Junior Software Engineer, focusing on bug fixes, unit testing, and code quality improvements.",
+                "I gained extensive knowledge of microservices architecture, REST API development, and system design concepts. I was a key member of a team responsible for developing the backend components of several critical microservices.",
+                "Later, I transitioned to the Test Automation team, where I automated QA test cases for end-to-end flows covering both frontend and backend. Initially focused on backend automation, I gradually expanded to frontend testing using frameworks like TestCafe, acquiring valuable JavaScript skills alongside my primary expertise in Java."
             ]
         },
         {
@@ -87,8 +88,9 @@
             "to": "Present",
             "location": "Bangalore, India",
             "description": [
-                "During my time at Upstox, I got opportunity to work on multiple latest technologies such as SpringBoot, React, Openshift, Kubernetes, Docket etc. I started my NetCracker journey as Junior Software engineer Where I was working on bugfixes, Unit testing and code smell fixing. Where I learned about microservices architecture and how to build REST APIs And in depth knowledge about system design. I was part of a team which was responsible for development of few microservices specifically backend part.",
-                "After spending an year in the team i moved to another team called Test Automation team. The team was responsible for automating QA test cases for end to end flow for both front end and backend. Initially I was working on backend part only but gradually moved to automating front end test cases as well. Here I learned about testing framework such as TestCafe. As I was working on front end so I picked up few pieces of JavaScript as well, But I consider Java as my Primary language."
+                "At Upstox, I serve as a Senior Software Engineer (SDE-II), contributing to the development of high-performance financial trading platforms. My role involves designing and implementing scalable backend services using Java and Spring Boot.",
+                "I am responsible for optimizing existing systems for lower latency and higher throughput, ensuring a seamless trading experience for millions of users. I also collaborate closely with cross-functional teams to integrate new features and maintain system reliability in a fast-paced fintech environment.",
+                "Beyond backend development, I occasionally contribute to frontend tasks and actively participate in architectural discussions to drive technical excellence and innovation within the team."
             ]
         }
     ],
